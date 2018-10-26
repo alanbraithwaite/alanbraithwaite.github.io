@@ -1,0 +1,62 @@
+.image-bg{
+/* transform: rotate(90deg); */
+background-image: url(pic1.jpg);
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+/* min-width: 100%; */
+}
+
+.name{
+  background: rgba(255, 255, 255, 0.548);
+  /* text-align: left; */
+  justify-content: start;
+  /* padding: 5px; */
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 2px;
+  margin: 20px 50px;
+  color:black;
+}
+
+
+
+.my-button{
+  background: rgba(255, 255, 255, 0.548);
+  display: flex;
+  justify-content:space-around;
+  /* align-content: ; */
+  /* padding: 10px; */
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+  margin: 20px 20px;
+  color:black;
+  /* align-items: center; */
+
+}
+
+.about-me{
+background: rgba(255, 255, 255, 0.808);
+  display: flex;
+  justify-content:space-around;
+  /* align-content: ; */
+  /* padding: 10px; */
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+  margin: 20px 20px;
+  color:black;
+  /* align-items: center; */
+}
+
+
+.card-white {
+  background: white;
+  padding: 30px;
+  box-shadow: 1px 1px 2px #e7e7e796;
+  border-radius: 4px;
+  margin: 20px 50px;
+}
+
+.box{
+background-color: lightgrey;
+color: black;
+}
