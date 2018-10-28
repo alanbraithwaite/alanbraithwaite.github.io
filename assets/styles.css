@@ -47,6 +47,19 @@ background: rgba(255, 255, 255, 0.808);
   /* align-items: center; */
 }
 
+.resume{
+background: rgba(255, 255, 255, 0.808);
+  display: flex;
+  justify-content:space-around;
+  /* align-content: ; */
+  /* padding: 10px; */
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+  margin: 20px 20px;
+  color:black;
+  /* align-items: center; */
+}
+
 
 .card-white {
   background: white;
