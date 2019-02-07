@@ -89,14 +89,11 @@ background: rgba(255, 255, 255, 0.808);
 
 .skills{
   background: rgba(255, 255, 255, 0.808);
-  display: flex;
-  justify-content:space-around;
-  /* align-content: ; */
-  /* padding: 10px; */
-  box-shadow: 1px 1px 2px #e7e7e7;
   border-radius: 4px;
   margin-top: 10px;
-  color:black;
+  height: 100px;
+  width: auto;
+  max-width: 250px;
   /* align-items: center; */
 }
 
@@ -125,6 +122,8 @@ color: black;
 }
 .kanban{
   background-image: url(Kanban_Boards.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .kanban:hover{
   background-color: #536DFE;
@@ -139,6 +138,15 @@ color: black;
   background-color: #536DFE;
   background-image: url(Flip.png);
 }
+.grimtol{
+  background-image: url(grimtol.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.grimtol:hover{
+  background-color: #536DFE;
+  background-image: url(grimtol.png);
+}
 /* .inspire{
   background-image: url(Inspire.png);
 }
@@ -148,17 +156,33 @@ color: black;
 } */
 .music{
   background-image: url(Music_is_fun.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .music:hover{
   background-color: #536DFE;
   background-image: url(Music_is_fun.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
 .battle{
   background-image: url(BattleCards.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .battle:hover{
   background-color: #536DFE;
   background-image: url(BattleCards.png);
+}
+.slapgame{
+  background-image: url(SlapGame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.slapgame:hover{
+  background-color: #536DFE;
+  background-image: url(SlapGame.png);
 }
 .disapper{
   opacity: 0;
@@ -166,6 +190,8 @@ color: black;
 .card{
   height: 100%;
   background-color: #536DFEDD;
+  color: #e7e7e7;
+
 }
 .disapper:hover{
   opacity: 100;
