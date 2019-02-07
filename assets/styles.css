@@ -24,16 +24,16 @@ min-height: 100vh;
   justify-content:space-around;
   /* align-content: ; */
   /* padding: 10px; */
-  box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 4px;
+  box-shadow: 1px 1px 3px #e7e7e7;
+  border-radius: 6px;
   margin: 20px 20px;
-  color:black;
+  /* color:black; */
   /* align-items: center; */
 
 }
 
 .about-me{
-background: rgba(255, 255, 255, 0.808);
+background: rgba(255, 255, 255, 0.945);
   display: flex;
   justify-content:space-around;
   /* align-content: ; */
@@ -55,34 +55,6 @@ background: rgba(255, 255, 255, 0.808);
   box-shadow: 1px 1px 2px #e7e7e7;
   border-radius: 4px;
   margin: 20px 20px;
-  color:black;
-  /* align-items: center; */
-}
-
-.resume{
-background: rgba(255, 255, 255, 0.808);
-  display: flex;
-  justify-content:space-around;
-  /* align-content: ; */
-  /* padding: 10px; */
-  box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 4px;
-  margin: 20px 20px;
-  color:black;
-  /* align-items: center; */
-}
-
-
-.resumetext{
-background: rgba(255, 255, 255, 0.808);
-  display: flex;
-  justify-content:space-around;
-  /* align-content: ; */
-  /* padding: 10px; */
-  box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 4px;
-  /* margin: 20px 20px 100px 20px; */
- margin-bottom: 50vh;
   color:black;
   /* align-items: center; */
 }
@@ -139,3 +111,65 @@ background: rgba(255, 255, 255, 0.808);
 background-color: lightgrey;
 color: black;
 } */
+
+
+.portfolio{
+  background-color: rgb(25, 154, 214);
+}
+/* .darkside{
+  background-image: url(darkside.png);
+} */
+.darkside:hover{
+  background-color: #536DFE;
+  background-image: url(darkside.png);
+}
+.kanban{
+  background-image: url(Kanban_Boards.png);
+}
+.kanban:hover{
+  background-color: #536DFE;
+  background-image: url(Kanban_Boards.png);
+}
+.flip{
+  background-image: url(Flip.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flip:hover{
+  background-color: #536DFE;
+  background-image: url(Flip.png);
+}
+/* .inspire{
+  background-image: url(Inspire.png);
+}
+.inspire:hover{
+  background-color: #536DFE;
+  background-image: url(Inspire.png);
+} */
+.music{
+  background-image: url(Music_is_fun.png);
+}
+.music:hover{
+  background-color: #536DFE;
+  background-image: url(Music_is_fun.png);
+}
+.battle{
+  background-image: url(BattleCards.png);
+}
+.battle:hover{
+  background-color: #536DFE;
+  background-image: url(BattleCards.png);
+}
+.disapper{
+  opacity: 0;
+}
+.card{
+  height: 100%;
+  background-color: #536DFEDD;
+}
+.disapper:hover{
+  opacity: 100;
+}
+.large {
+  height:25vh;
+}
