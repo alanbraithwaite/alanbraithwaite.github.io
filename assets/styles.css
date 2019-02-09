@@ -31,24 +31,23 @@ min-height: 100vh;
   background-image: url(Flip2.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+  background-color: rgba(248, 223, 113, 0.808);
 }
 .flip:hover{
-  background-color:  rgb(240, 181, 133);
   background-image: url(Flip2.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-/* keeper goes here */
 /* .keeper{
   background-image: url(keeper.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+  background-color: rgba(248, 223, 113, 0.808);
 }
 .keeper:hover{
-  background-color:  rgb(240, 181, 133);
   background-image: url(keeper.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -58,10 +57,10 @@ min-height: 100vh;
   background-image: url(grimtol.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+  background-color: rgba(248, 223, 113, 0.808);
 }
 .grimtol:hover{
-  background-color:  rgb(240, 181, 133);
   background-image: url(grimtol.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -71,10 +70,10 @@ min-height: 100vh;
   background-image: url(Kanban_Boards.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+  background-color: rgba(248, 223, 113, 0.808);
 }
 .kanban:hover{
-  background-color:  rgb(240, 181, 133);
   background-image: url(Kanban_Boards.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -84,10 +83,10 @@ min-height: 100vh;
   background-image: url(BattleCards.png);
   background-size: contain;
   background-repeat: no-repeat;  
-  background-position: center
+  background-position: center;
+  background-color: rgba(248, 223, 113, 0.808);
 }
 .battle:hover{
-  background-color:  rgb(240, 181, 133);
   background-image: url(BattleCards.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -97,38 +96,37 @@ min-height: 100vh;
   background-image: url(Music.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+  background-color: rgba(248, 223, 113, 0.808);
 }
 .music:hover{
-  background-color:  rgb(240, 181, 133);
   background-image: url(Music.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
 }
 
 .slapgame{
   background-image: url(SlapGame.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center
-
+  background-position: center;
+  background-color: rgba(248, 223, 113, 0.808);
 }
 .slapgame:hover{
-  background-color:  rgb(240, 181, 133);
   background-image: url(SlapGame.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 /* .inspire{
   background-image: url(inspire.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center
-
+  background-position: center;
+  background-color: rgba(248, 223, 113, 0.808);
 }
 .inspire:hover{
-  background-color:  rgb(240, 181, 133);
   background-image: url(inspire.png);
   background-size: contain;
   background-repeat: no-repeat;
