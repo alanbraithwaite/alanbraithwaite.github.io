@@ -8,18 +8,18 @@ min-height: 100vh;
 .name{
   background: rgba(255, 255, 255, 0.548);
   justify-content: start;
-  box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 2px;
-  margin: 20px 50px;
+  box-shadow: 1px 1px 2px #3b3a3a;
+  border-radius: 6px;
+  margin: 50px 50px;
   color:rgb(10, 73, 28);
 }
 
 .my-button{
   background: rgba(255, 255, 255, 0.883);
   justify-content:space-between;
-  box-shadow: 1px 1px 3px #e7e7e7;
+  box-shadow: 1px 1px 2px #3b3a3a;
   border-radius: 6px;
-    color:rgb(10, 73, 28);
+  color:rgb(10, 73, 28);
 
 }
 
