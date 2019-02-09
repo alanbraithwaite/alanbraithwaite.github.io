@@ -19,14 +19,14 @@ min-height: 100vh;
 }
 
 .my-button{
-  background: rgba(255, 255, 255, 0.548);
-  display: flex;
-  justify-content:space-around;
+  background: rgba(255, 255, 255, 0.883);
+  /* display: flex; */
+  justify-content:space-between;
   /* align-content: ; */
   /* padding: 10px; */
   box-shadow: 1px 1px 3px #e7e7e7;
   border-radius: 6px;
-  margin: 20px 20px;
+  /* margin: 20px 20px; */
   /* color:black; */
   /* align-items: center; */
 
@@ -133,6 +133,7 @@ color: black;
   background-image: url(Flip.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center
 }
 .flip:hover{
   background-color: #536DFE;
@@ -198,4 +199,8 @@ color: black;
 }
 .large {
   height:25vh;
+}
+
+img{
+  max-height: 150px;
 }
