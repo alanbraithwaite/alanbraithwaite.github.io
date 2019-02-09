@@ -7,7 +7,7 @@ min-height: 100vh;
 
 .name{
   background: rgba(255, 255, 255, 0.548);
-  justify-content: start;
+  /* justify-content: start; */
   box-shadow: 1px 1px 2px #3b3a3a;
   border-radius: 6px;
   margin: 50px 50px;
@@ -20,150 +20,121 @@ min-height: 100vh;
   box-shadow: 1px 1px 2px #3b3a3a;
   border-radius: 6px;
   color:rgb(10, 73, 28);
-
+  
 }
-
-
-
-/* .portfolio {
-  background: rgba(255, 255, 255, 0.808);
-  display: flex;
-  justify-content:space-between;
-  flex-flow: row wrap;
-  align-content: ;
-  padding: 10px;
-  box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 10px;
-  margin: 20px 20px;
-  color:black;
-  align-items: center;
-} */
-
-
-.skills{
-  background-color: rgba(226, 134, 134, 0.808);
-/* border-radius: 4px;
-  margin-top: 10px;
-  height: 100px;
-  width: auto;
-  max-width: 250px; */
-  /* align-items: center; */
-}
-
-.skill-badge{
-  /* width:auto;
-  height: auto; */
-  max-height: 75px;
-  max-width: 75px;
-}
-
-/* .about-me{
-background: rgba(255, 255, 255, 0.945); */
-  /* display: flex;
-  justify-content:space-around; */
-  /* align-content: ; */
-  /* padding: 10px; */
-  /* box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 4px;
-  margin: 20px 20px;
-  color:black; */
-  /* align-items: center; */
-/* } */
-
-
-/* .about-metext{
-background: rgba(255, 255, 255, 0.808);
-  display: flex;
-  justify-content:space-around; */
-  /* align-content: ; */
-  /* padding: 10px; */
-  /* box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 4px;
-  margin: 20px 20px;
-  color:black; */
-  /* align-items: center; */
-/* } */
-
 
 .portfolio{
   background-color: rgb(240, 181, 133);
+}
+
+.flip{
+  background-image: url(Flip2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+.flip:hover{
+  background-color:  rgb(240, 181, 133);
+  background-image: url(Flip2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* keeper goes here */
+/* .keeper{
+  background-image: url(keeper.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+.keeper:hover{
+  background-color:  rgb(240, 181, 133);
+  background-image: url(keeper.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+.grimtol{
+  background-image: url(grimtol.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+.grimtol:hover{
+  background-color:  rgb(240, 181, 133);
+  background-image: url(grimtol.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .kanban{
   background-image: url(Kanban_Boards.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center
 }
 .kanban:hover{
-  background-color: #536DFE;
+  background-color:  rgb(240, 181, 133);
   background-image: url(Kanban_Boards.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
-.flip{
-  background-image: url(Flip.png);
+
+/* .battle{
+  background-image: url(BattleCards.png);
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;  
   background-position: center
 }
-.flip:hover{
-  background-color: #536DFE;
-  background-image: url(Flip.png);
+.battle:hover{
+  background-color:  rgb(240, 181, 133);
+  background-image: url(BattleCards.png);
   background-size: contain;
   background-repeat: no-repeat;
-}
-.grimtol{
-  background-image: url(grimtol.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.grimtol:hover{
-  background-color: #536DFE;
-  background-image: url(grimtol.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-/* .inspire{
-  background-image: url(Inspire.png);
-}
-.inspire:hover{
-  background-color: #536DFE;
-  background-image: url(Inspire.png);
 } */
+
 .music{
   background-image: url(Music.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center
 }
 .music:hover{
-  background-color: #536DFE;
+  background-color:  rgb(240, 181, 133);
   background-image: url(Music.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center
+}
 
-}
-.battle{
-  background-image: url(BattleCards.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.battle:hover{
-  background-color: #536DFE;
-  background-image: url(BattleCards.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 .slapgame{
   background-image: url(SlapGame.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center
+
 }
 .slapgame:hover{
-  background-color: #536DFE;
+  background-color:  rgb(240, 181, 133);
   background-image: url(SlapGame.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
+/* .inspire{
+  background-image: url(inspire.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+
+}
+.inspire:hover{
+  background-color:  rgb(240, 181, 133);
+  background-image: url(inspire.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+
 .disapper{
   opacity: 0;
 }
@@ -176,7 +147,25 @@ background: rgba(255, 255, 255, 0.808);
 .disapper:hover{
   opacity: 100;
 }
-.large {
-  height:25vh;
+
+
+
+.skills{
+  background-color: rgba(248, 223, 113, 0.808);
+}
+
+.skill-badge{
+  max-height: 75px;
+  max-width: 75px;
+}
+
+
+
+.about{
+  background-color: rgb(240, 181, 133);
+}
+
+.link{
+  color: #e7e7e7;
 }
 
