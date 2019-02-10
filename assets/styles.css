@@ -28,14 +28,14 @@ min-height: 100vh;
 }
 
 .flip{
-  background-image: url(Flip2.png);
+  background-image: url(flip2.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(248, 223, 113, 0.808);
 }
 .flip:hover{
-  background-image: url(Flip2.png);
+  background-image: url(flip2.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -67,14 +67,14 @@ min-height: 100vh;
 }
 
 .kanban{
-  background-image: url(Kanban_Boards.png);
+  background-image: url(kanban.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(248, 223, 113, 0.808);
 }
 .kanban:hover{
-  background-image: url(Kanban_Boards.png);
+  background-image: url(kanban.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -93,28 +93,28 @@ min-height: 100vh;
 } */
 
 .music{
-  background-image: url(Music.png);
+  background-image: url(music.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(248, 223, 113, 0.808);
 }
 .music:hover{
-  background-image: url(Music.png);
+  background-image: url(music.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .slapgame{
-  background-image: url(SlapGame.png);
+  background-image: url(slapgame.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(248, 223, 113, 0.808);
 }
 .slapgame:hover{
-  background-image: url(SlapGame.png);
+  background-image: url(slapgame.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
